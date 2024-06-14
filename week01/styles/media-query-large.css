@@ -1,33 +1,10 @@
 @media screen and (min-width: 500px) {
-    body {
-        font-family: 'Roboto', sans-serif;
-    }
-    
-    header, main, footer {
-        max-width: 640px;
-        margin: 1rem auto;
-        padding: 1rem;
-    }
-
     header {
         border: 1px solid #fff;
         color: #ffffff;
         background-color: #000;
     }
-    
-    main, footer {
-        border: 1px solid rgb(58, 58, 178);
-        background-color: #d0cff9;
-    }
-    
     main {
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 1rem;
-    }
-    
-    section {
-        padding: 1rem;
-        background-color: #ffffff;
     }
 }
