@@ -4,6 +4,7 @@
         color: #ffffff;
         background-color: #000;
     }
+
     main {
         grid-template-columns: 1fr 1fr;
     }
