@@ -7,6 +7,7 @@
     <title>Haley Atkinson - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="WDD 230 - Web Frontend Development. Haley Atkinson. Course assignment portal.">
     <meta name="author" content="Haley Atkinson">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -27,17 +28,26 @@
         <section class="card">
             <h2>Learning Activities</h2>
             <ul>
-
+                <li><a href="#">Week 1 Learning Activity</a></li>
+                <li><a href="#">Week 2 Learning Activity</a></li>
+                <li><a href="#">Week 3 Learning Activity</a></li>
             </ul>
         </section>
         <section class="card">
             <h2>Information</h2>
-
+            <div class="weather"> 
+                <h3>Weather:</h3>
+                <p>weather info</p>
+            </div>
+            <div class="page visits"> 
+                <h3>Number of Visits:</h3>
+                <p>no. visits to page</p>
+            </div>
         </section>
     </main>
     <footer>
-        <p>©2024 - Haley Atkinson - U.S.A.</p>
-        <p id="Last Modified">insert JS code</p>
+        <p>&copy; <span id="currentYear"></span> - Haley Atkinson - U.S.A.</p>
+        <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
 </body>
