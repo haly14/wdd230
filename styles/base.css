@@ -48,8 +48,22 @@ main {
     margin-bottom: 1rem;
 }
 
-h1, h2, h3 {
+h1{
+    padding: 1rem;
+    color: #fff;
+    background-color: rgb(65, 65, 65)
+}
+
+h2 {
     font-weight: 700;
+    padding: 1rem;
+    color: #fff;
+    background-color: rgb(54, 118, 97);
+}
+
+h3 {
+    padding: .5rem;
+
 }
 
 ul {
