@@ -41,4 +41,8 @@ button.addEventListener('click', () => {
     input.focus();
     input.value = ''
 });
+
+Other method:
+https://mdn.github.io/learning-area/javascript/apis/document-manipulation/shopping-list-finished.html
+
 */
