@@ -1,9 +1,12 @@
+// js for year
 const currentYear = new Date().getFullYear();
 document.getElementById('currentYear').textContent = currentYear;
 
 const lastModified = document.lastModified;
 document.getElementById('lastModified').textContent = `Last Modified: ${lastModified}`;
 
+
+// js for dark mode button
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
 const sections = document.querySelectorAll("section.card");
@@ -34,12 +37,11 @@ modeButton.addEventListener("click", () => {
 });
 
 
-/*
-other dark mode example:
+// js for hambutton
+const hamburgerElement = document.querySelector('#myButton');
+const navElement = document.querySelector('.menuLinks');
 
-const myBtn = document.querySelector('#darkBtn');
-
-myBtn.addEventListener('click', () => {
-	main.classList.toggle('dark');
-})
-*/
+hamburgerElement.addEventListener('click', () => {
+	navElement.classList.toggle('open');
+	//hamburgerElement.classList.toggle('open');
+});
