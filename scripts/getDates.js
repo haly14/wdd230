@@ -1,4 +1,4 @@
-// js for year
+// js for date last modified
 const currentYear = new Date().getFullYear();
 document.getElementById('currentYear').textContent = currentYear;
 
