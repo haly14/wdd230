@@ -31,7 +31,7 @@ header h1 {
 }
 
 nav {
-    background-color:#2c5f4e;
+    background-color: #2c5f4e;
     width: 100%;
     margin: 0 auto;
 }
@@ -107,7 +107,7 @@ main {
     margin-top: 1rem;
 }
 
-h1{
+h1 {
     padding: 1rem;
     color: #fff;
     background-color: #333;
