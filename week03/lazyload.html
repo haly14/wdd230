@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meaningful Title</title>
-    <meta name="description" content="description of page using keywords">
+    <title>Lazy Load Example</title>
+    <meta name="description" content="week 3 wdd230 lazy load example">
     <meta name="author" content="Haley Atkinson">
     <link rel="stylesheet" href="styles/lazyload.css">
 </head>
@@ -19,10 +19,27 @@
             <h1>Lazy Load Example</h1>
         </header>
         <main>
-            <img></img>
+            <picture>
+                <img src="https://placehold.co/400x600/000000/fff" alt="Placeholder Kitten Image" loading="lazy" width="400" height="600">
+            </picture>
+            <picture>
+                <img src="https://placehold.co/400x700/222222/fff" alt="Placeholder Kitten Image" loading="lazy" width="400" height="700">
+            </picture>
+            <picture>
+                <img src="https://placehold.co/400x800/444444/fff" alt="Placeholder Kitten Image" loading="lazy" width="400" height="800">
+            </picture>
+            <picture>
+                <img src="https://placehold.co/400x650/666666/fff" alt="Placeholder Kitten Image" loading="lazy" width="400" height="650">
+            </picture>
+            <picture>
+                <img src="https://placehold.co/400x750/888888/fff" alt="Placeholder Kitten Image" loading="lazy" width="400" height="750">
+            </picture>
+            <picture>
+                <img src="https://placehold.co/400x850" alt="Placeholder Kitten Image" loading="lazy" width="400" height="850">
+            </picture>
         </main>
         <footer>
-            <p>&copy; <span id="currentYear"></span>©Haley W. Atkinson | BYU-Idaho | WDD 230 - Spring 2024</p>
+            <p>&copy; <span id="currentYear"></span> Haley W. Atkinson | BYU-Idaho | WDD 230 - Spring 2024</p>
             <p id="lastModified"></p>
         </footer>
     </body>
