@@ -58,7 +58,7 @@ let numVisits = Number(window.localStorage.getItem("numVisits-1s")) || 0;
 if (numVisits !== 0) {
 	visitsDisplay.textContent = numVisits;
 } else {
-	visitsDisplay.textContent = `This is your first visit. 🥳 Welcome!`;
+	visitsDisplay.textContent = `This is your first visit. Welcome!`;
 }
 
 numVisits++;

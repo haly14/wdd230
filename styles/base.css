@@ -138,6 +138,11 @@ section ul li {
     padding: .25rem;
 }
 
+span {
+    margin: 1rem;
+    padding: 1rem;
+}
+
 .hero {
     width: 100%;
     margin: 0;
