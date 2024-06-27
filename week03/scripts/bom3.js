@@ -2,6 +2,8 @@ const input = document.querySelector('#favch');
 const button = document.querySelector('button');
 const list = document.querySelector('#list');
 
+let chaptersArray = getChapterList() || [];
+
 button.addEventListener('click', () => {
     if (input.value != '') {
         displayList(input.value);
@@ -21,27 +23,26 @@ function getChapterList() {
 }
 */
 
-let chaptersArray = getChapterList() || [];
-
 chaptersArray.forEach(chapter => {
     displayList(chapter);
 });
 
 function displayList(item) {
-    if (input.value != '') {
-        const li = document.createElement('li');
-        const deleteButton = document.createElement('button');
-        li.textContent = item;
-        deleteButton.textContent = '❌';
-        deleteButton.classList.add('delete');
-        li.append(deleteButton);
-        list.append(li);
-        deleteButton.addEventListener('click', function () {
-            list.removeChild(li);
-            deleteChapter(li.textContent);
-            input.focus();
-        });
-    }
+    if (input.value != '') { }
+    const li = document.createElement('li');
+    const deleteButton = document.createElement('button');
+    li.textContent = item;
+    deleteButton.textContent = '❌';
+    deleteButton.classList.add('delete');
+    li.append(deleteButton);
+    list.append(li);
+    deleteButton.addEventListener('click', function () {
+        list.removeChild(li);
+        deleteChapter(li.textContent);
+        input.focus();
+    });
+    input.focus();
+    input.value = ''
 }
 
 function setChapterList() {
