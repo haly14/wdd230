@@ -19,8 +19,8 @@ modeButton.addEventListener("click", () => {
 		body.style.background = "#333";
 		main.style.color = "#fff";
 		sections.forEach(section => {
-            section.style.background = "#6a6a6a";
-        });
+			section.style.background = "#6a6a6a";
+		});
 		links.forEach(link => {
 			link.style.color = "#fff";
 		});
@@ -30,8 +30,8 @@ modeButton.addEventListener("click", () => {
 		body.style.background = "#eee";
 		main.style.color = "#000";
 		sections.forEach(section => {
-            section.style.background = "";
-        });
+			section.style.background = "";
+		});
 		links.forEach(link => {
 			link.style.color = "";
 		});
