@@ -138,10 +138,6 @@ section ul li {
     padding: .25rem;
 }
 
-span {
-    margin: 1rem;
-    padding: 1rem;
-}
 
 .hero {
     width: 100%;
@@ -162,8 +158,8 @@ span {
     font-size: 1.15rem;
     position: absolute;
     bottom: 5%;
-    left: 10%;
-    right: 10%;
+    left: 15%;
+    right: 15%;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 1rem;
     text-align: center;
