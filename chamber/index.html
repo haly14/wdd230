@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber of Commerce Site</title>
-    <meta name="description" content="description of page using keywords">
+    <meta name="description" content="Billings Chamber of Commerce Website">
     <meta name="author" content="Haley Atkinson">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.cs">
-    <link rel="stylesheet" href="styles/larger.cs">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
     <meta property="og:title" content="Billings Chamber of Commerce Webpage" />
     <meta property="og:type" content="website" />
@@ -18,7 +18,11 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <img src="images/montana.webp" alt="Chamber Logo" width="100" height="100">
+        <h1>Billings Chamber of Commerce</h1>
+    </header>
+
     <nav>
         <button id="myButton">&#9776;</button>
         <ul class="menuLinks">
@@ -28,17 +32,41 @@
             <li><a href="#" title="Join">Join</a></li>
         </ul>
     </nav>
+
     <main>
-        <img src="images/billings.jpg" alt="Hero Image - Billings Rimrocks" width="200" height="100">
-        <a href="https://" class="cta">Click here to join the chamber of commerce!</a>
-        <section class="events"></section>
-        <section class="weather"></section>
-        <section class="spotlights"></section>
+        <div class="hero">
+            <picture>
+                <source srcset="" media="(min-width: 400px)">
+                <source srcset="" media="(min-width: 960px)">
+                <img src="images/billings.jpg" alt="Hero Image - Billings Rimrocks" width="1200" height="952">
+            </picture>
+            <div class="herolabel">
+                <span><a href="https://" class="cta">Click here to join the chamber of commerce!</a></span>
+            </div>
+        </div>
+        <section class="card">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li><a href="#">52nd Annual Symphony in the Park</a></li>
+                <li><a href="#">Yellowstone Valley Farmer's Market</a></li>
+                <li><a href="#">Alberta Bair Theater: Swan Lake</a></li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Current Billings Weather</h2>
+            <span>weather info</span>
+        </section>
+        <section class="card">
+            <h2>Shop Local! Business Spotlights</h2>
+            <span>local businesses</span>
+        </section>
     </main>
+
     <footer>
         <p>&copy; <span id="currentYear"></span> - Haley W. Atkinson - WDD 230</p>
         <p id="lastModified"></p>
     </footer>
+    
     <script src="scripts/chamber.js"></script>
 </body>
 
