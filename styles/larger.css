@@ -12,12 +12,12 @@
     }
 
     main {
-        max-width: 1000px;
         margin: 0 auto;
         padding: 1rem;
         display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 1rem;
+        width: 90%;
     }
 
     main h1 {

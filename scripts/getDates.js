@@ -9,12 +9,14 @@ document.getElementById('lastModified').textContent = `Last Modified: ${lastModi
 // js for dark mode button
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
+const body = document.querySelector("body");
 const sections = document.querySelectorAll("section.card");
 const links = document.querySelectorAll("section.card ul li a");
 
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("☾")) {
 		main.style.background = "#333";
+		body.style.background = "#333";
 		main.style.color = "#fff";
 		sections.forEach(section => {
             section.style.background = "#6a6a6a";
@@ -25,6 +27,7 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "🌣";
 	} else {
 		main.style.background = "#eee";
+		body.style.background = "#eee";
 		main.style.color = "#000";
 		sections.forEach(section => {
             section.style.background = "";
