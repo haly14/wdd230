@@ -164,6 +164,13 @@ section ul li {
     text-align: center;
 }
 
+iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
 footer {
     background-color: #333;
     color: #fff;

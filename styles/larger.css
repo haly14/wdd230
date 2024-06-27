@@ -40,4 +40,8 @@
         font-size: 1.5rem;
     }
 
+    iframe {
+        grid-column: 1 / -1;
+    }
+
 }
