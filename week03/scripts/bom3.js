@@ -23,7 +23,7 @@ function getChapterList() {
 
 let chaptersArray = getChapterList() || [];
 
-chaptersArray.forEach (chapter => {
+chaptersArray.forEach(chapter => {
     displayList(chapter);
 });
 
@@ -52,7 +52,7 @@ function getChapterList() {
     return JSON.parse(localStorage.getItem('myFavBOMList'));
 }
 
-function deleteChapter (chapter) {
+function deleteChapter(chapter) {
     chapter = chapter.slice(0, chapter.length - 1);
     chaptersArray = chaptersArray.filter((item) => item !== chapter);
 }
