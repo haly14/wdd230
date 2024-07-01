@@ -15,17 +15,28 @@ hamburgerElement.addEventListener('click', () => {
 	//hamburgerElement.classList.toggle('open');
 });
 
-// js for number of visits
-const visitsDisplay = document.querySelector(".visits");
 
-let numVisits = Number(window.localStorage.getItem("numVisits-1s")) || 0;
+// js for days since last visited
+const visitSidebar = document.querySelector('.visit-sidebar');
+const now = Date.now();
+const lastVisit = localStorage.getItem('lastVisit');
+let message;
 
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
+if (!lastVisit) {
+	message = "Welcome! Let us know if you have any questions.";
 } else {
-	visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`;
+	const diff = now - lastVisit;
+
+	const diffDays = Math.floor(diff / (86400000));
+
+	if (diffDays < 1) {
+		message = "Back so soon! Awesome!";
+	} else if (diffDays === 1) {
+		message = `You last visited 1 day ago.`;
+	} else {
+		message = `You last visited ${diffDays} days ago.`;
+	}
 }
 
-numVisits++;
-
-localStorage.setItem("numVisits-1s", numVisits);
+visitSidebar.textContent = message;
+localStorage.setItem('lastVisit', now.toString());
