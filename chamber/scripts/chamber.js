@@ -14,3 +14,18 @@ hamburgerElement.addEventListener('click', () => {
 	navElement.classList.toggle('open');
 	//hamburgerElement.classList.toggle('open');
 });
+
+// js for number of visits
+const visitsDisplay = document.querySelector(".visits");
+
+let numVisits = Number(window.localStorage.getItem("numVisits-1s")) || 0;
+
+if (numVisits !== 0) {
+	visitsDisplay.textContent = numVisits;
+} else {
+	visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`;
+}
+
+numVisits++;
+
+localStorage.setItem("numVisits-1s", numVisits);
