@@ -1,0 +1,43 @@
+@media only screen and (min-width: 48rem) {
+    header {
+        justify-content: center;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+
+    nav ul li {
+        margin: 0 1rem;
+    }
+
+    main {
+        margin: 0 auto;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        width: 90%;
+    }
+
+    main h1 {
+        grid-column: 1 / -1;
+    }
+
+    .card {
+        padding: 1rem;
+        margin: 0;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero {
+        grid-column: 1 / -1;
+    }
+
+    .hero span {
+        font-size: 1.5rem;
+    }
+
+}

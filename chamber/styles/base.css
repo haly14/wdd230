@@ -63,7 +63,7 @@ ul.menuLinks {
     list-style-type: none;
 }
 
-ul.menulinks.open {
+ul.menuLinks.open {
     display: block;
 }
 
