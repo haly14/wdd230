@@ -39,21 +39,6 @@ nav {
     margin: 0 auto;
 }
 
-#myButton::before {
-    content: "";
-}
-
-#myButton {
-    font-size: 2rem;
-    background: none;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-    padding: .5rem 2vw;
-}
-
 nav ul {
     list-style-type: none;
     padding: .75rem 2vw;
@@ -83,12 +68,27 @@ ul.menuLinks {
     list-style-type: none;
 }
 
+ul.menuLinks.open {
+    display: block;
+}
+
+#myButton::before {
+    content: "";
+}
+
 #myButton.open::before {
     content: "x";
 }
 
-ul.menuLinks.open {
-    display: block;
+#myButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: .5rem 2vw;
 }
 
 main {
