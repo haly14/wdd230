@@ -133,6 +133,10 @@ main {
     order: 2;
 }
 
+.hover {
+    margin: 1rem;
+}
+
 
 /* Index, discover page css */
 h1 {
@@ -167,6 +171,7 @@ section ul li {
 section p {
     padding: .5rem;
     margin-top: 1rem;
+    line-height: 180%;
 }
 
 
