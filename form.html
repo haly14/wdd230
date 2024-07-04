@@ -33,7 +33,7 @@
             <li><a href="index.html" title="Home">Home</a></li>
             <li><a href="chamber/index.html" title="Chamber">Chamber</a></li>
             <li><a href="week01/chamber-site-plan.html" title="Site Plan">Site Plan</a></li>
-            
+
             <li class="active"><a href="form.html" title="Form">Form</a></li>
         </ul>
     </nav>
@@ -44,9 +44,14 @@
             <fieldset>
                 <legend>Form</legend>
                 <label>Username* <input type="text" name="username" id="username" required></label>
-                <label>Password* <input type="password" name="password" id="password" required></label>
-                <label>Password* <input type="password" name="password" id="password" required></label>
-                <label>Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                <label>Password* <input type="password" name="pwd" id="pwd"
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters."
+                        required></label>
+                <label>Password* <input type="password" name="pwd2" id="pwd2" required></label>
+                <label>Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com"
+                        pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" title="Please enter a valid email address."
+                        required></label>
                 <label>Page Rating <input type="range" name="rating" id="rating"></label>
             </fieldset>
 
