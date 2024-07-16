@@ -6,10 +6,11 @@
 
 :root {
     --back: #eee;
-    --back2: #333;
-    --foredark: hsla(0, 0%, 10%, 1);
-    --forelight: hsla(0, 0%, 100%, 1);
+    --back2: #2c5f4e;
+    --back3: white;
+    --font: #333;
     --border: hsla(0, 0%, 10%, .8);
+    --border2: #999;
     --borderlight: hsla(0, 0%, 33%, 1);
     --shadow: hsl(0, 0%, 50%);
 }
@@ -21,15 +22,55 @@ body {
 }
 
 main {
-    padding: 0 2%;
-    min-height: 20rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .wf1 fieldset {
     margin: 2rem 0;
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     border-radius: 6px;
-    padding: .5rem 2%;
+    padding: .5rem;
 }
 
+.wf1 legend {
+    color: var(--font);
+    font-size: 1.5rem;
+    padding: 0 .5rem;
+}
 
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--font);
+    font-size: 1rem;
+}
+
+.wf1 div {
+    padding-top: 1rem;
+    color: var(--font);
+    font-size: 1rem;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="password"],
+.wf1 input[type="email"], 
+.wf1 select
+{
+    background-color: var(--back3);
+    display: block;
+    border: solid 1px var(--border2);
+    border-radius: 6px;
+    padding: .75rem;
+    color: var(--font);
+    width: 100%;
+    max-width: 400px;
+}
+
+.wf1 input:required {
+    border-left: solid 6px var(--back2);
+}
+
+.wf1 input:required:valid {
+    border-left: solid 6px rgb(31, 153, 57);
+}
