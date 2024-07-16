@@ -71,13 +71,13 @@ main {
     max-width: 500px;
 }
 
-.wf1 input[type="range"]{
+.wf1 input[type="range"] {
     margin-left: 1rem;
     width: 100%;
     max-width: 500px;
 }
 
-.wf1 input[type="submit"]{
+.wf1 input[type="submit"] {
     border: none;
     background-image: linear-gradient(var(--back2), #255244);
     color: #fff;
