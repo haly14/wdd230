@@ -68,15 +68,8 @@ ul.menuLinks.open {
     display: block;
 }
 
-#myButton::before {
-    content: "";
-}
-
-#myButton.open::before {
-    content: "x";
-}
-
 #myButton {
+    display: block;
     font-size: 2rem;
     background: none;
     border: none;
@@ -85,6 +78,10 @@ ul.menuLinks.open {
     width: 100%;
     text-align: left;
     padding: .5rem 2vw;
+}
+
+#myButton.open::before {
+    content: "";
 }
 
 main {
