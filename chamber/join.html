@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Site: Join Form</title>
+    <meta name="description" content="Billings Chamber of Commerce Website">
+    <meta name="author" content="Haley Atkinson">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Billings Chamber of Commerce Webpage" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/billings.webp" />
+    <meta property="og:url" content="https://haly14.github.io/wdd230/chamber/index.html" />
+</head>
+
+<body>
+    <header>
+        <img src="images/montana.png" alt="Chamber Logo" width="100" height="100">
+        <h1>Billings Chamber of Commerce</h1>
+    </header>
+
+    <nav>
+        <button id="myButton">&#9776;</button>
+        <ul class="menuLinks">
+            <li class="active"><a href="index.html" title="Home">Home</a></li>
+            <li><a href="discover.html" title="Discover">Discover</a></li>
+            <li><a href="#" title="Directory">Directory</a></li>
+            <li><a href="#" title="Join">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Chamber of Commerce Join Form</h1>
+        <form method="get" action="thankyou.html" class="wf1">
+            <fieldset>
+                <legend>Chamber of Commerce Join Form</legend>
+                <label>First Name* <input type="text" name="fname" id="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label>Title or Position <input type="text" name="position" id="position" pattern="^[A-Za-z\s\-]{7,}$" title="Only alphabetic characters, hyphens, and spaces are allowed. Minimum 7 characters."></label>
+                <label>Email* <input type="email" name="email" id="email" placeholder="example@gmail.com"
+                    title="Please enter a valid email address." required></label>
+                <label>Phone* <input type="tel" name="phone" id="phone" placeholder="(208)234-5678" required></label>
+                <label>Business/Organization Name* <input type="text" name="business" id="business" required></label>
+                <div>Membership Level</div>
+                    <label><input type="radio" name="audience" value="np"> NP Membership (non-profit)</label>
+                    <label><input type="radio" name="audience" value="bronze"> Bronze Membership</label>
+                    <label><input type="radio" name="audience" value="silver"> Silver Membership</label>
+                    <label><input type="radio" name="audience" value="gold"> Gold Membership</label>
+                <label>Business/Organization Description <input type="text" name="description" id="description"></label>
+                
+                <input type="hidden" name="timestamp" id="timestamp">
+                <div>
+                    <label for="timestampVisible">Form Loaded At:</label>
+                    <span id="timestampVisible"></span>
+                </div>
+
+            </fieldset>
+
+            <input type="submit" value="Join Now!">
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> - Haley W. Atkinson - WDD 230</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/join.js"></script>
+</body>
+
+</html>
