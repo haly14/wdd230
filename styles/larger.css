@@ -7,6 +7,20 @@
         margin: 0;
     }
 
+    #myButton {
+        display: none;
+    }
+
+    nav ul.menuLinks {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
     nav ul li {
         margin: 0 1rem;
     }
