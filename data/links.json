@@ -1,0 +1,98 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "HolyGrail"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "MediaQuery"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/design.html",
+            "title": "Design"
+          },
+          {
+            "url": "https://codepen.io/Haley-Atkinson-the-builder/pen/XWwEpbB",
+            "title": "Hambutton"
+          },
+          {
+            "url": "week02/bom.html",
+            "title": "DOM"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/images/landscape2.webp.webp",
+            "title": "WebP"
+          },
+          {
+            "url": "week03/lazyload.html",
+            "title": "LazyLoad"
+          },
+          {
+            "url": "week03/responsive-images.html",
+            "title": "RespnsvImages"
+          },
+          {
+            "url": "week03/bom3.html",
+            "title": "WebStorageAPI"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "https://codepen.io/Haley-Atkinson-the-builder/pen/xxNvZev",
+            "title": "CSSPseudoClss"
+          },
+          {
+            "url": "week04/images/css-combinators.jpg",
+            "title": "CSSCombntrs"
+          },
+          {
+            "url": "week04/tablebuild.html",
+            "title": "HTMLTables"
+          },
+          {
+            "url": "week04/form-start/index.html",
+            "title": "HTMLForms"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "https://codepen.io/Haley-Atkinson-the-builder/pen/KKjzNyK",
+            "title": "CSSPseudoElmnts"
+          },
+          {
+            "url": "week05/new-ward-members.json",
+            "title": "JSON"
+          },
+          {
+            "url": "week05/prophets.html",
+            "title": "FetchAPI"
+          },
+          {
+            "url": "week05/weather.html",
+            "title": "WeatherAPI"
+          }
+        ]
+      }
+    ]
+  }
+  
