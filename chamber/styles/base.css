@@ -291,6 +291,39 @@ section p {
 }
 
 
+
+/* Directory only css */
+.menu {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #bed;
+    text-align: center;
+}
+
+.menu button {
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
 footer {
     background-color: #646F58;
     color: #fff;

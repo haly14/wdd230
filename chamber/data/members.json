@@ -1,0 +1,95 @@
+{
+    "members": [
+        {
+            "member": "Business 1",
+            "information": [
+              {
+                "name": "business name",
+                "address": "address",
+                "phone": "phone number",
+                "url": "website url",
+                "img": "img or icon file names",
+                "membership": "membership level"
+              }
+            ]
+        },
+        {
+            "member": "Business 2",
+            "information": [
+              {
+                "name": "business name",
+                "address": "address",
+                "phone": "phone number",
+                "url": "website url",
+                "img": "img or icon file names",
+                "membership": "membership level"
+              }
+            ]
+        },
+        {
+            "member": "Business 3",
+            "information": [
+              {
+                "name": "business name",
+                "address": "address",
+                "phone": "phone number",
+                "url": "website url",
+                "img": "img or icon file names",
+                "membership": "membership level"
+              }
+            ]
+        },
+        {
+            "member": "Business 4",
+            "information": [
+              {
+                "name": "business name",
+                "address": "address",
+                "phone": "phone number",
+                "url": "website url",
+                "img": "img or icon file names",
+                "membership": "membership level"
+              }
+            ]
+        },
+        {
+            "member": "Business 5",
+            "information": [
+              {
+                "name": "business name",
+                "address": "address",
+                "phone": "phone number",
+                "url": "website url",
+                "img": "img or icon file names",
+                "membership": "membership level"
+              }
+            ]
+        },
+        {
+            "member": "Business 6",
+            "information": [
+              {
+                "name": "business name",
+                "address": "address",
+                "phone": "phone number",
+                "url": "website url",
+                "img": "img or icon file names",
+                "membership": "membership level"
+              }
+            ]
+        },
+        {
+            "member": "Business 7",
+            "information": [
+              {
+                "name": "business name",
+                "address": "address",
+                "phone": "phone number",
+                "url": "website url",
+                "img": "img or icon file names",
+                "membership": "membership level"
+              }
+            ]
+        }
+    ]
+  }
