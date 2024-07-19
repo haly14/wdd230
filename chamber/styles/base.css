@@ -135,7 +135,7 @@ main {
 }
 
 
-/* Index, discover page css */
+/* Index, discover, all page css */
 h1 {
     padding: 1rem;
     color: #fff;
@@ -148,6 +148,7 @@ h2 {
     padding: 1rem;
     color: #fff;
     background-color: #646F58;
+    border-radius: 6px;
 }
 
 h3 {
@@ -155,6 +156,7 @@ h3 {
     background-color: #464f3d;
     padding: .5rem;
     margin-top: 1rem;
+    border-radius: 4px;
 }
 
 section ul {
@@ -205,6 +207,87 @@ section p {
 /* Join only css */
 .benefits {
     display: none;
+}
+
+.join-h2 {
+    margin-top: 1.5rem;
+}
+
+.benefits h3 {
+    max-width: 400px;
+    margin-top: 1.5rem;
+    margin-bottom: .4rem;
+}
+
+.benefits p {
+    margin-left: .4rem;
+    margin-right: 1rem;
+    padding: .25rem;
+}
+
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: 1.5px solid #464f3d;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf1 legend {
+    color: #464f3d;
+    font-size: 1.25rem;
+    padding: 0 .5rem;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: #464f3d;
+    font-size: .9rem;
+}
+
+.wf1 div {
+    padding-top: 1rem;
+    color: #464f3d;
+    font-size: .9rem;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="tel"],
+.wf1 input[type="email"],
+.wf1 select
+{
+    background-color: #ffffff;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+}
+
+.wf1 input[type="radio"]{
+    margin-right: 8px;
+}
+
+.wf1 input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(#637057, #464f3d);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.wf1 input:required {
+    border-left: solid 6px #464f3d;
+}
+
+.wf1 input:required:valid {
+    border-left: solid 6px rgb(40, 168, 68);
 }
 
 
