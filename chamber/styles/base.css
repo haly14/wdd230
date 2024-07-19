@@ -312,9 +312,18 @@ section p {
     grid-gap: 1rem;
 }
 
-.list {
-    display: flex;
-    flex-direction: column;
+.list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.list section img {
+    display: none;
 }
 
 .card img {
