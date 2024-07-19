@@ -1,0 +1,23 @@
+{
+    "familyName": "Johnson",
+    "dateMoved": "05/02/2024",
+    "numberFamily": 3,
+    "visited": true,
+    "familyMembers": [
+        {
+            "name": "Mark Johnson",
+            "gender": "M",
+            "birthdate": "04/26/1996"
+        },
+        {
+            "name": "Helly Johnson",
+            "gender": "F",
+            "birthdate": "05/16/1997"
+        },
+        {
+            "name": "Danny Johnson",
+            "gender": "M",
+            "birthdate": "09/05/2022"
+        }
+    ]
+}
