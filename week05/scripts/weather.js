@@ -24,7 +24,7 @@ apiFetch();
 
 /*
 function displayResults(data) {
-    currentTemp.nnerHTML = `${data.___}&deg;F`;
+    currentTemp.innerHTML = `${data.___}&deg;F`;
     const iconsrc = `https://openweathermap.org/img/w/${___}.__`;
     let desc = data.weather[0].___;
     weatherIcon.setAttribute('__', ____);
