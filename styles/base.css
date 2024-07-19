@@ -111,6 +111,7 @@ h1 {
     color: #fff;
     background-color: #333;
     text-align: center;
+    border-radius: 6px;
 }
 
 h2 {
@@ -118,11 +119,18 @@ h2 {
     padding: 1rem;
     color: #fff;
     background-color: #2c5f4e;
+    border-radius: 6px;
 }
 
 h3 {
     padding: .5rem;
     margin-top: 1rem;
+}
+
+.weather .current-temp,
+.weather figure,
+.page-visits .visits {
+    margin-left: 1em;
 }
 
 section ul {
@@ -161,6 +169,33 @@ section ul li {
     padding: 1rem;
     text-align: center;
 }
+
+
+/* links.js only css */
+#learning-activities {
+    list-style-type: none;
+    padding: 0;
+}
+
+#learning-activities li {
+    margin: 0.5em 0;
+}
+
+#learning-activities li span.week-heading {
+    font-weight: bold;
+    font-size: 1.15em;
+    display: inline;
+    margin-right: 0.5em;
+}
+
+#learning-activities li a {
+    text-decoration: none;
+}
+
+#learning-activities li a:hover {
+    text-decoration: underline;
+}
+
 
 iframe {
     width: 100%;
