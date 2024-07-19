@@ -25,6 +25,7 @@ header {
 header h1 {
     padding: 2rem;
 }
+
 header img {
     height: auto
 }
@@ -254,8 +255,7 @@ section p {
 .wf1 input[type="text"],
 .wf1 input[type="tel"],
 .wf1 input[type="email"],
-.wf1 select
-{
+.wf1 select {
     background-color: #ffffff;
     display: block;
     border: solid 1px #999;
@@ -266,11 +266,11 @@ section p {
     max-width: 400px;
 }
 
-.wf1 input[type="radio"]{
+.wf1 input[type="radio"] {
     margin-right: 8px;
 }
 
-.wf1 input[type="submit"]{
+.wf1 input[type="submit"] {
     border: none;
     background-image: linear-gradient(#637057, #464f3d);
     color: #fff;
