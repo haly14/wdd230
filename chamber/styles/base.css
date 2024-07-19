@@ -151,6 +151,8 @@ h2 {
 }
 
 h3 {
+    color: #fff;
+    background-color: #464f3d;
     padding: .5rem;
     margin-top: 1rem;
 }
@@ -201,6 +203,9 @@ section p {
 
 
 /* Join only css */
+.benefits {
+    display: none;
+}
 
 
 footer {

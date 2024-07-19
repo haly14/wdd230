@@ -37,12 +37,18 @@
     }
 
 
+    /* Join only css */
+    .benefits {
+        display: block;
+    }   
+
+
     /* Discover only css */
     .discover {
         margin: 0 auto;
         padding: 1rem;
         display: grid;
-        grid-template-columns: 1fr 2fr; /* change back to 1fr 2fr */
+        grid-template-columns: 1fr 2fr;
         gap: 1rem;
         width: 90%;
     }
