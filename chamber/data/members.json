@@ -1,95 +1,108 @@
 {
-    "members": [
+  "members": [
+    {
+      "member": "Alberta Bair Theater",
+      "information": [
         {
-            "member": "Business 1",
-            "information": [
-              {
-                "name": "business name",
-                "address": "address",
-                "phone": "phone number",
-                "url": "website url",
-                "img": "img or icon file names",
-                "membership": "membership level"
-              }
-            ]
-        },
-        {
-            "member": "Business 2",
-            "information": [
-              {
-                "name": "business name",
-                "address": "address",
-                "phone": "phone number",
-                "url": "website url",
-                "img": "img or icon file names",
-                "membership": "membership level"
-              }
-            ]
-        },
-        {
-            "member": "Business 3",
-            "information": [
-              {
-                "name": "business name",
-                "address": "address",
-                "phone": "phone number",
-                "url": "website url",
-                "img": "img or icon file names",
-                "membership": "membership level"
-              }
-            ]
-        },
-        {
-            "member": "Business 4",
-            "information": [
-              {
-                "name": "business name",
-                "address": "address",
-                "phone": "phone number",
-                "url": "website url",
-                "img": "img or icon file names",
-                "membership": "membership level"
-              }
-            ]
-        },
-        {
-            "member": "Business 5",
-            "information": [
-              {
-                "name": "business name",
-                "address": "address",
-                "phone": "phone number",
-                "url": "website url",
-                "img": "img or icon file names",
-                "membership": "membership level"
-              }
-            ]
-        },
-        {
-            "member": "Business 6",
-            "information": [
-              {
-                "name": "business name",
-                "address": "address",
-                "phone": "phone number",
-                "url": "website url",
-                "img": "img or icon file names",
-                "membership": "membership level"
-              }
-            ]
-        },
-        {
-            "member": "Business 7",
-            "information": [
-              {
-                "name": "business name",
-                "address": "address",
-                "phone": "phone number",
-                "url": "website url",
-                "img": "img or icon file names",
-                "membership": "membership level"
-              }
-            ]
+          "name": "Alberta Bair Theater",
+          "address": "2801 3rd Ave N Billings, MT 59103",
+          "phone": "(406) 256-6052 ",
+          "url": "https://www.albertabairtheater.org/ ",
+          "img": "img or icon file names",
+          "membership": "Gold Membership"
         }
-    ]
-  }
+      ]
+    },
+    {
+      "member": "Billings OB-GYN",
+      "information": [
+        {
+          "name": "Billings OB-GYN",
+          "address": "1611 Zimmerman Trail Billings, MT 59102",
+          "phone": "(406) 248-3607",
+          "url": "https://www.billings-obgyn.com/",
+          "img": "img or icon file names",
+          "membership": "Silver Membership"
+        }
+      ]
+    },
+    {
+      "member": "The Burger Dive",
+      "information": [
+        {
+          "name": "The Burger Dive",
+          "address": "114 N 27th St Billings, MT 59101 ",
+          "phone": "(406) 281-8292",
+          "url": "https://theburgerdive.com/ ",
+          "img": "img or icon file names",
+          "membership": "Silver Membership"
+        }
+      ]
+    },
+    {
+      "member": "CHS Refinery",
+      "information": [
+        {
+          "name": "CHS Refinery",
+          "address": "803 US Highway 212 S Laurel, MT 59044",
+          "phone": "(406) 628-5200",
+          "url": "https://www.chsinc.com/",
+          "img": "img or icon file names",
+          "membership": "Gold Membership"
+        }
+      ]
+    },
+    {
+      "member": "The Hive Nutrition",
+      "information": [
+        {
+          "name": "The Hive Nutrition",
+          "address": "3429 Central Ave #C Billings, MT 59102",
+          "phone": "(406) 601-1280",
+          "url": "https://www.facebook.com/thehivemt/",
+          "img": "img or icon file names",
+          "membership": "Bronze Membership"
+        }
+      ]
+    },
+    {
+      "member": "The Sourdough Bagel",
+      "information": [
+        {
+          "name": "The Sourdough Bagel",
+          "address": "219 N 29th Billings, MT 59101",
+          "phone": "(406) 969-1117",
+          "url": "https://www.thesourdoughbagel.com/",
+          "img": "img or icon file names",
+          "membership": "Bronze Membership"
+        }
+      ]
+    },
+    {
+      "member": "Triple T Moving",
+      "information": [
+        {
+          "name": "Triple T Moving",
+          "address": "547 S 20th St W Ste 4, Billings, MT 59102",
+          "phone": "(406) 696-2857",
+          "url": "https://www.facebook.com/TTTMoving/",
+          "img": "img or icon file names",
+          "membership": "Bronze Membership"
+        }
+      ]
+    },
+    {
+      "member": "Tumbleweed (non-profit)",
+      "information": [
+        {
+          "name": "Tumbleweed (non-profit)",
+          "address": "505 N 24th St Billings MT, 59101",
+          "phone": "(406) 259-2558",
+          "url": "https://www.tumbleweedprogram.org/",
+          "img": "img or icon file names",
+          "membership": "NP Membership"
+        }
+      ]
+    }
+  ]
+}
