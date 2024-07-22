@@ -8,7 +8,7 @@
           "address": "2801 3rd Ave N Billings, MT 59103",
           "phone": "(406) 256-6052 ",
           "url": "https://www.albertabairtheater.org/ ",
-          "img": "img or icon file names",
+          "img": "abt.webp",
           "membership": "Gold Membership"
         }
       ]
@@ -21,7 +21,7 @@
           "address": "1611 Zimmerman Trail Billings, MT 59102",
           "phone": "(406) 248-3607",
           "url": "https://www.billings-obgyn.com/",
-          "img": "img or icon file names",
+          "img": "pbgyn.webp",
           "membership": "Silver Membership"
         }
       ]
@@ -34,7 +34,7 @@
           "address": "114 N 27th St Billings, MT 59101 ",
           "phone": "(406) 281-8292",
           "url": "https://theburgerdive.com/ ",
-          "img": "img or icon file names",
+          "img": "burger-dive.webp",
           "membership": "Silver Membership"
         }
       ]
@@ -47,7 +47,7 @@
           "address": "803 US Highway 212 S Laurel, MT 59044",
           "phone": "(406) 628-5200",
           "url": "https://www.chsinc.com/",
-          "img": "img or icon file names",
+          "img": "chs.webp",
           "membership": "Gold Membership"
         }
       ]
@@ -60,7 +60,7 @@
           "address": "3429 Central Ave #C Billings, MT 59102",
           "phone": "(406) 601-1280",
           "url": "https://www.facebook.com/thehivemt/",
-          "img": "img or icon file names",
+          "img": "hive.webp",
           "membership": "Bronze Membership"
         }
       ]
@@ -73,7 +73,7 @@
           "address": "219 N 29th Billings, MT 59101",
           "phone": "(406) 969-1117",
           "url": "https://www.thesourdoughbagel.com/",
-          "img": "img or icon file names",
+          "img": "sourdough.webp",
           "membership": "Bronze Membership"
         }
       ]
@@ -86,7 +86,7 @@
           "address": "547 S 20th St W Ste 4, Billings, MT 59102",
           "phone": "(406) 696-2857",
           "url": "https://www.facebook.com/TTTMoving/",
-          "img": "img or icon file names",
+          "img": "TTT.webp",
           "membership": "Bronze Membership"
         }
       ]
@@ -99,7 +99,7 @@
           "address": "505 N 24th St Billings MT, 59101",
           "phone": "(406) 259-2558",
           "url": "https://www.tumbleweedprogram.org/",
-          "img": "img or icon file names",
+          "img": "tumblwd.webp",
           "membership": "NP Membership"
         }
       ]
