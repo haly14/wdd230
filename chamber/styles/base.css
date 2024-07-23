@@ -207,7 +207,7 @@ section p {
 
 /* Join only css */
 .benefits {
-    display: none;
+    display: block;
 }
 
 .join-h2 {
