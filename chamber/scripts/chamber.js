@@ -44,5 +44,54 @@ if (!lastVisit) {
 	}
 }
 
+
+// js for member spotlights
+async function displaySpotlights() {
+    try {
+        const response = await fetch('data/members.json');
+        if (response.ok) {
+            const data = await response.json();
+            const spotlightMembers = data.members.filter(member => 
+                member.information[0].membership === 'Silver Membership' || 
+                member.information[0].membership === 'Gold Membership'
+            );
+
+            const selectedMembers = getRandomMembers(spotlightMembers, 2, 3);
+
+            const spotlightSection = document.querySelector('#spotlights');
+            spotlightSection.innerHTML = '';
+
+            selectedMembers.forEach(member => {
+                const memberDiv = document.createElement('div');
+                memberDiv.classList.add('spotlight');
+                
+                memberDiv.innerHTML = `
+                    <h3>${member.information[0].name}</h3>
+                    <img src="images/${member.information[0].img}" alt="${member.information[0].name}">
+                    <p><strong>Address:</strong> ${member.information[0].address}</p>
+                    <p><strong>Phone:</strong> ${member.information[0].phone}</p>
+                    <p><a href="${member.information[0].url}" target="_blank">Visit Website</a></p>
+                `;
+                
+                spotlightSection.appendChild(memberDiv);
+            });
+        } else {
+            throw new Error('Failed to fetch members data');
+        }
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+function getRandomMembers(members, min, max) {
+    const numOfMembers = Math.floor(Math.random() * (max - min + 1)) + min;
+    const shuffled = members.sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, numOfMembers);
+}
+
+displaySpotlights();
+
+
+
 visitSidebar.textContent = message;
 localStorage.setItem('lastVisit', now.toString());
