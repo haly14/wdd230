@@ -43,6 +43,7 @@ nav ul {
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 nav ul li {
@@ -293,12 +294,25 @@ section p {
 
 
 /* Directory only css */
+.directory main {
+    display: flex;
+}
+
 .menu {
     margin: 1rem auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
-    background-color: #bed;
+    background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
+}
+
+.directory h3 {
+    margin: .5rem;
+}
+
+.directory a {
+    margin-left: .6rem;
+    margin-top: .5rem;
 }
 
 .menu button {
@@ -308,18 +322,11 @@ section p {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr;
     grid-gap: 1rem;
-}
-
-.list section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .list section img {
@@ -330,6 +337,7 @@ section p {
     max-width: 100%;
     height: auto;
 }
+
 
 
 
