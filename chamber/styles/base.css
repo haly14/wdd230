@@ -177,7 +177,7 @@ section p {
 }
 
 
-/* Index only css-.hero, .spotlights */
+/* Index only css-.hero, .spotlights, banner */
 .hero {
     width: 100%;
     margin: 0;
@@ -226,7 +226,7 @@ section p {
 }
 
 .spotlight h3 {
-    color: #464f3d;
+    color: #fff;
     font-size: 1.2rem;
     margin: 0.5rem 0;
 }
@@ -245,6 +245,30 @@ section p {
 .spotlight a:hover {
     text-decoration: underline;
 }
+
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f5f5f5;
+    color: #000;
+    font-size: .9rem;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#close-banner {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: .8rem;
+    left: 1rem;
+}
+
 
 
 

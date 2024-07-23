@@ -56,7 +56,7 @@ async function displaySpotlights() {
                 member.information[0].membership === 'Gold Membership'
             );
 
-            const selectedMembers = getRandomMembers(spotlightMembers, 2, 3);
+            const selectedMembers = getRandomMembers(spotlightMembers);
 
             const spotlightSection = document.querySelector('#spotlights');
             spotlightSection.innerHTML = '';
@@ -82,14 +82,31 @@ async function displaySpotlights() {
         console.error(error);
     }
 }
-
-function getRandomMembers(members, min, max) {
-    const numOfMembers = Math.floor(Math.random() * (max - min + 1)) + min;
+function getRandomMembers(members) {
+    const numOfMembers = 2;
     const shuffled = members.sort(() => 0.5 - Math.random());
     return shuffled.slice(0, numOfMembers);
 }
-
 displaySpotlights();
+
+
+// js for banner
+document.addEventListener('DOMContentLoaded', () => {
+    const banner = document.getElementById('banner');
+    const closeButton = document.getElementById('close-banner');
+
+    function checkBannerDisplay() {
+        const today = new Date().getDay();
+        if (today === 1 || today === 2 || today === 3) {
+            banner.style.display = 'block';
+        }
+    }
+    closeButton.addEventListener('click', () => {
+        banner.style.display = 'none';
+    });
+    checkBannerDisplay();
+});
+
 
 
 
